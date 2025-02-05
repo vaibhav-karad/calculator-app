@@ -55,12 +55,3 @@ A simple and intuitive calculator app for Android.
 4. **Sign Change:**
 
     Press the "+/-" button to change the sign (positive to negative, or negative to positive) of the current number in the display.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- Inspiration
-- References
