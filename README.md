@@ -11,21 +11,25 @@ A simple and intuitive calculator app for Android.
 - Android Studio installed on your machine
 - An Android emulator or a physical Android device
 
-### Installation
+## 🚀 Installation Guide  
 
-1. **Clone the repository:**
+### 1️⃣ Clone the Repository  
 
-    ```sh
-    git clone https://github.com/vaibhav-karad/calculator.git
-    ```
+```sh
+git clone https://github.com/vaibhav-karad/calculator.git
+```  
 
-2. **Open in Android Studio:**
+### 2️⃣ Open in Android Studio  
 
-    Open the cloned project in Android Studio.
+🛠️ Launch **Android Studio** and open the cloned project.  
 
-3. **Build and Run:**
+### 3️⃣ Build and Run  
 
-    Build the app and run it on an Android emulator or a physical Android device.
+📱 Compile the app and run it on an **Android emulator** or a **physical device**.  
+
+### 4️⃣ Try the Beta Version  
+
+🔥 Want to explore the latest features? **Try the beta release!**  
 
 ## App Preview
 
