@@ -49,7 +49,7 @@ fun Calculator(modifier: Modifier = Modifier,viewModel: CalculatorViewModel){
            Text(
                text = equationText.value?:"",
                style = TextStyle(
-                   fontSize = 30.sp,
+                   fontSize = 35.sp,
                    textAlign = TextAlign.End
                ),
                maxLines = 5,
@@ -89,23 +89,21 @@ fun CalculatorButton(btn : String,onClick : ()-> Unit){
             onClick =onClick,
             modifier = Modifier.size(80.dp),
             shape = CircleShape,
-            contentColor = Color.White,
+            contentColor = Color.Black,
             containerColor = getColor(btn)
         )
         {
-            Text(text = btn, fontSize = 22.sp, fontWeight = FontWeight.Bold)
+            Text(text = btn, fontSize = 25.sp, fontWeight = FontWeight.Bold)
 
         }
     }
 }
 
-fun getColor(btn : String) : Color{
-    if(btn == "C" || btn == "AC")
-        return Color(0xFFA8D5BA)
-    if(btn == "(" || btn == ")")
-        return Color.Gray
-    if(btn == "/" || btn == "*" || btn == "+" || btn == "-" || btn == "=")
-        return Color(0xFF708090)
-
-    return Color(0xFFADD8E6)
+fun getColor(btn: String): Color {
+    return when (btn) {
+        "C", "AC" -> Color(0xFFA8D5BA)
+        "(", ")" -> Color.Gray
+        "/", "*", "+", "-", "=" -> Color(0xFF708090)
+        else -> Color(0xFFADD8E6)
+    }
 }

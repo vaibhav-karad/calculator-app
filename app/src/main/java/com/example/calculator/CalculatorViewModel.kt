@@ -12,7 +12,7 @@ class CalculatorViewModel  : ViewModel(){
     private val _equationText = MutableLiveData("")
     val equationText : LiveData<String> = _equationText
 
-    private val _resultText = MutableLiveData("0")
+    private val _resultText = MutableLiveData("")
     val resultText : LiveData<String> = _resultText
 
     fun onButtonClick(btn : String) {
@@ -20,16 +20,16 @@ class CalculatorViewModel  : ViewModel(){
 
         _equationText.value?.let {
             if (btn == "AC") {
-                _equationText.value = ""
                 _resultText.value = "0"
+                _equationText.value = ""
                 return
             }
 
             if (btn == "C") {
                 if (it.isNotEmpty()) {
                     _equationText.value = it.substring(0, it.length - 1)
+                    return
                 }
-                return
             }
 
             if (btn == "=") {

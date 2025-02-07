@@ -4,7 +4,7 @@
             "outputFile": "com.example.calculator.app-mergeDebugResources-47:/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\vaid\\.gradle\\caches\\8.9\\transforms\\4822755b3a3b318ce9ad993c2fb6915f\\transformed\\core-1.15.0\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\vaid\\.gradle\\caches\\8.10.2\\transforms\\a36a6ed9ae142fb9a1be18d08da31de1\\transformed\\core-1.15.0\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
